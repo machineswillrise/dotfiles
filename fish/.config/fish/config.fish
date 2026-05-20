@@ -68,3 +68,6 @@ function fish_greeting
 	# Do nothing
 end
 
+# Shell prompt
+starship init fish | source
+
