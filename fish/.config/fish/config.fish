@@ -29,6 +29,10 @@ export PATH="$HOME/.jbang/bin:$PATH"
 # Raku
 export PATH="/usr/share/perl6/site/bin:$PATH"
 export PATH="$HOME/.raku/bin:$PATH"
+
+# Java Card
+export ANT_HOME="$HOME/.sdkman/candidates/ant/current"
+export JC_HOME_TOOLS="$HOME/.javacard"
 # ----
 
 # Personal aliases
