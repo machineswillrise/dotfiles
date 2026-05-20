@@ -32,7 +32,7 @@ export PATH="$HOME/.raku/bin:$PATH"
 
 # Java Card
 export ANT_HOME="$HOME/.sdkman/candidates/ant/current"
-export JC_HOME_TOOLS="$HOME/javacard"
+export JC_HOME_TOOLS="$HOME/javacard/sdk"
 # ----
 
 # Personal aliases
