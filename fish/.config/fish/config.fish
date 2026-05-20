@@ -26,8 +26,14 @@ if [ -z "$TTY" ]
 	screen -xRR terminal
 end
 
-# Alias to kill all screens
+# Personal aliases
 alias kscreen="pkill screen"
+
+function gacp
+	git add .
+	git commit -m "$argv"
+	git push origin HEAD
+end
 
 function fish_greeting
 	# Do nothing
