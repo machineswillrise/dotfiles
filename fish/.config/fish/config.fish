@@ -22,8 +22,10 @@ alias sdkman="sdk"
 eval "$(ssh-agent -c)" > /dev/null
 
 # Start screen
-if [ -z "$TTY" ]
-	screen -xRR terminal
+if status is-interactive
+	if not set -q STY
+		exec screen -RR
+	end
 end
 
 # Personal aliases
