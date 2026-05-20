@@ -1,6 +1,3 @@
-# Load CachyOS config
-source /usr/share/cachyos-fish-config/cachyos-config.fish
-
 # Editors and man paging
 export EDITOR=emacs
 export SUDO_EDITOR=emacs
