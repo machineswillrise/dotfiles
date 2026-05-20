@@ -5,6 +5,9 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 alias j!=jbang
 export PATH="$HOME/.jbang/bin:$PATH"
 
+# Raku PATH
+export PATH="/usr/share/perl6/site/bin:$PATH"
+
 # Editors and man paging
 export EDITOR=emacs
 export SUDO_EDITOR=emacs
