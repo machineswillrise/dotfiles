@@ -1,13 +1,6 @@
 # Load CachyOS config
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
-# Add JBang to environment
-alias j!=jbang
-export PATH="$HOME/.jbang/bin:$PATH"
-
-# Raku PATH
-export PATH="/usr/share/perl6/site/bin:$PATH"
-
 # Editors and man paging
 export EDITOR=emacs
 export SUDO_EDITOR=emacs
@@ -28,15 +21,33 @@ if status is-interactive
 	end
 end
 
+# Path
+# ----
+# JBang
+export PATH="$HOME/.jbang/bin:$PATH"
+
+# Raku
+export PATH="/usr/share/perl6/site/bin:$PATH"
+export PATH="$HOME/.raku/bin:$PATH"
+# ----
+
 # Personal aliases
 # ----------------
+# JBang
+alias j!="jbang"
+
 # Kill GNU screen
 alias kscreen="pkill screen"
 
-# Push changes in one command
-function gacp
+# Commit changes
+function gac
 	git add .
 	git commit -m "$argv"
+end
+
+# Push changes in one command
+function gacp
+	gac
 	git push origin HEAD
 end
 
