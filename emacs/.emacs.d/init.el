@@ -278,7 +278,13 @@
 ;; --------------------------------------------------------
 (use-package eglot
 	:defer t
-	:hook (python-mode . eglot-ensure))
+	:init
+	(add-hook 'python-mode-hook 'eglot-ensure))
+
+(use-package python
+	:ensure nil
+	:mode ("\\.py\\'" . python-ts-mode)
+	:hook (python-ts-mode . eglot-ensure))
 
 (use-package flycheck
 	:ensure t
