@@ -1,0 +1,1 @@
+/home/daniel/.emacs.d/straight/repos/project/project-pkg.el

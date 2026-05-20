@@ -1,0 +1,1 @@
+/home/daniel/.emacs.d/straight/repos/shrink-path.el/shrink-path.el

@@ -1,0 +1,1 @@
+/home/daniel/.emacs.d/straight/repos/evil-collection/modes/message/evil-collection-message.el
