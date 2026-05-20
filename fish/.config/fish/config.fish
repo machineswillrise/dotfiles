@@ -18,9 +18,6 @@ alias ls="exa"
 # Commands I frequently type wrong
 alias sdkman="sdk"
 
-# Sourcehut SSH agent
-eval "$(ssh-agent -c)" > /dev/null
-
 # Start screen
 if status is-interactive
 	if not set -q STY
