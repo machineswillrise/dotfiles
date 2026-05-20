@@ -6,7 +6,7 @@ export PAGER=most
 # Use nicer looking alternatives to common utilities
 alias grep="rg"
 alias cat="bat"
-alias ls="exa"
+alias ls="eza"
 
 # Commands I frequently type wrong
 alias sdkman="sdk"
