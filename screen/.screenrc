@@ -1,0 +1,46 @@
+# Disable the status message
+startup_message off
+ 
+# Status duration
+msgwait 1
+ 
+# Display a status bar
+hardstatus alwayslastline "%{b kw}%H %{r}%1` %{w}| %{g}%c %{w}| %{y}%d.%m.%Y %{w}| %{g}%l %{w}| %{-b kw}%u %-Lw%{= rW}%50> %n%f %t %{-}%+Lw%<"
+ 
+# Use a UTF-8 encoding
+defutf8 on
+utf8 on
+encoding UTF-8 UTF-8
+ 
+# Terminal colors
+term screen-256color-bce
+truecolor on
+defbce on
+ 
+# Shell
+shell "$SHELL"
+ 
+# Create windows
+screen -t edit 0 emacs --no-window-system
+screen -t sys 1 btop
+screen -t misc 2
+ 
+# Shortcuts
+escape ^Aa      # Escape sequence
+bind | split -v # Vertical split
+bind - split -h # Horizontal split
+bind ^I focus   # Switch pane focus
+ 
+# Scrollback
+defscrollback 10000
+ 
+# Mouse
+mousetrack on
+termcapinfo xterm* ti@:te@
+ 
+# Prevent residual text from showing after editing a file
+altscreen on
+ 
+# Disable visual bell
+vbell off
+ 
