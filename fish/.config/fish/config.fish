@@ -29,13 +29,20 @@ if status is-interactive
 end
 
 # Personal aliases
+# ----------------
+# Kill GNU screen
 alias kscreen="pkill screen"
 
+# Push changes in one command
 function gacp
 	git add .
 	git commit -m "$argv"
 	git push origin HEAD
 end
+
+# Load ESP-IDF SDK
+alias get_idf=". $HOME/esp/esp-idf/export.fish"
+# ----------------
 
 function fish_greeting
 	# Do nothing
