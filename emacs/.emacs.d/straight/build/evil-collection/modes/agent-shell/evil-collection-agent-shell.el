@@ -1,1 +1,0 @@
-/home/daniel/.emacs.d/straight/repos/evil-collection/modes/agent-shell/evil-collection-agent-shell.el

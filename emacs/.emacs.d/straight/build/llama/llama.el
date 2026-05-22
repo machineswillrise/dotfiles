@@ -1,1 +1,0 @@
-/home/daniel/.emacs.d/straight/repos/llama/llama.el

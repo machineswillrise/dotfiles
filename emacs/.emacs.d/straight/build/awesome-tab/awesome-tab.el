@@ -1,1 +1,0 @@
-/home/daniel/.emacs.d/straight/repos/awesome-tab/awesome-tab.el

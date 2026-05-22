@@ -1,1 +1,0 @@
-/home/daniel/.emacs.d/straight/repos/bind-key/bind-key.el

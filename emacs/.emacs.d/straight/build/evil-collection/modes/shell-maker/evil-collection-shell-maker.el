@@ -1,1 +1,0 @@
-/home/daniel/.emacs.d/straight/repos/evil-collection/modes/shell-maker/evil-collection-shell-maker.el

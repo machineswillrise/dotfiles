@@ -1,1 +1,0 @@
-/home/daniel/.emacs.d/straight/repos/diff-hl/diff-hl.el

@@ -1,1 +1,0 @@
-/home/daniel/.emacs.d/straight/repos/scroll-restore/.github/PULL_REQUEST_TEMPLATE.md

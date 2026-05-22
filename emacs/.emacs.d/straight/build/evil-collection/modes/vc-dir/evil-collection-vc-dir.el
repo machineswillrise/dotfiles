@@ -1,1 +1,0 @@
-/home/daniel/.emacs.d/straight/repos/evil-collection/modes/vc-dir/evil-collection-vc-dir.el

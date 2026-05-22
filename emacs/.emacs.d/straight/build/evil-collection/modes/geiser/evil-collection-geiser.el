@@ -1,1 +1,0 @@
-/home/daniel/.emacs.d/straight/repos/evil-collection/modes/geiser/evil-collection-geiser.el

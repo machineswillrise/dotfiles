@@ -1,1 +1,0 @@
-/home/daniel/.emacs.d/straight/repos/projectile/projectile.el
