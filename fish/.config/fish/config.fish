@@ -37,6 +37,9 @@ export JC_TOOLS_HOME="$HOME/javacard/sdk"
 # JBang
 alias j!="jbang"
 
+# Custom AI Agent
+alias jagent="j! ~/Desktop/Projects/jagent/JAgent.java"
+
 # Kill GNU screen
 alias kscreen="pkill screen"
 

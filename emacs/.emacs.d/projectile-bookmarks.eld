@@ -1,1 +1,1 @@
-("~/.dotfiles/")
+("~/.dotfiles/" "~/Desktop/Projects/jagent/" "~/Desktop/Projects/website/" "~/Desktop/Projects/website/website/" "~/Desktop/Projects/java-encrypter/")
