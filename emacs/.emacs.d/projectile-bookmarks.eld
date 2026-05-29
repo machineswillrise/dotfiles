@@ -1,1 +1,1 @@
-("~/.dotfiles/" "~/Desktop/Projects/jagent/" "~/Desktop/Projects/website/" "~/Desktop/Projects/website/website/" "~/Desktop/Projects/java-encrypter/")
+("~/.dotfiles/" "~/Desktop/Projects/javawm/" "~/Desktop/Projects/third-party/Shai-Hulud-Open-Source/" "~/Desktop/Projects/java-encrypter/" "~/Desktop/Projects/jagent/" "~/Desktop/Projects/website/" "~/Desktop/Projects/website/website/")
