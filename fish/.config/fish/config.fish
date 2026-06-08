@@ -26,9 +26,17 @@ export PATH="$HOME/.jbang/bin:$PATH"
 export PATH="/usr/share/perl6/site/bin:$PATH"
 export PATH="$HOME/.raku/bin:$PATH"
 
+# OpenCode
+export PATH="$HOME/.opencode/bin/opencode:$PATH"
+# ----
+
+# SDKs
+# ----
 # Java Card
 export ANT_HOME="$HOME/.sdkman/candidates/ant/current"
 export JC_TOOLS_HOME="$HOME/javacard/sdk"
+
+alias get_idf=". $HOME/esp/esp-idf/export.fish"
 # ----
 
 # Personal aliases
@@ -72,4 +80,3 @@ end
 
 # Shell prompt
 starship init fish | source
-
