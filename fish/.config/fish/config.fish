@@ -44,6 +44,9 @@ alias get_idf=". $HOME/esp/esp-idf/export.fish"
 # JBang
 alias j!="jbang"
 
+# Use All GCC warnings
+alias gcc="gcc -Wall -Wextra -Wpedantic -Werror"
+
 # Custom AI Agent
 alias jagent="j! ~/Desktop/Projects/jagent/JAgent.java"
 
