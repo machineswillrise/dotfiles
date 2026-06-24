@@ -39,9 +39,10 @@ export JC_TOOLS_HOME="$HOME/javacard/sdk"
 alias get_idf=". $HOME/esp/esp-idf/export.fish"
 # ----
 
-# Anti-Fedding
+# C# stuff
 #-------------
 export DOTNET_CLI_TELEMETRY_OPTOUT="true"
+export SSL_CERT_DIR="$HOME/.aspnet/dev-certs/trust:/usr/lib/ssl/certs"
 # ------------
 
 # Personal aliases
