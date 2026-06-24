@@ -39,6 +39,11 @@ export JC_TOOLS_HOME="$HOME/javacard/sdk"
 alias get_idf=". $HOME/esp/esp-idf/export.fish"
 # ----
 
+# Anti-Fedding
+#-------------
+export DOTNET_CLI_TELEMETRY_OPTOUT="true"
+# ------------
+
 # Personal aliases
 # ----------------
 # JBang
