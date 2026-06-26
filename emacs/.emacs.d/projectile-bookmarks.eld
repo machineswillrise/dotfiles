@@ -1,1 +1,1 @@
-("~/.dotfiles/" "/media/daniel/7613-4175/UnityFPSCourse/" "~/Desktop/Projects/misc-school-stuff/" "~/Desktop/Projects/java-tictactoe/")
+("~/.dotfiles/" "~/Desktop/Projects/misc-school-stuff/" "~/Desktop/Projects/website/" "/media/daniel/7613-4175/UnityFPSCourse/" "~/Desktop/Projects/java-tictactoe/")

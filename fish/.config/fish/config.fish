@@ -32,6 +32,9 @@ export PATH="$HOME/.opencode/bin/opencode:$PATH"
 
 # SDKs
 # ----
+# Java
+export JAVA_HOME="$HOME/.sdkman/candidates/java/21-tem"
+
 # Java Card
 export ANT_HOME="$HOME/.sdkman/candidates/ant/current"
 export JC_TOOLS_HOME="$HOME/javacard/sdk"
