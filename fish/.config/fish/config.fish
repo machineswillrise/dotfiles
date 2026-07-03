@@ -50,6 +50,9 @@ export SSL_CERT_DIR="$HOME/.aspnet/dev-certs/trust:/usr/lib/ssl/certs"
 
 # Personal aliases
 # ----------------
+# Java
+alias java="java --enable-preview --source 21"
+
 # JBang
 alias j!="jbang"
 
