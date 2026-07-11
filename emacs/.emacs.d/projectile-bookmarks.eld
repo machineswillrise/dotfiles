@@ -1,1 +1,1 @@
-("~/.dotfiles/" "~/Desktop/Projects/misc-school-stuff/" "~/Desktop/Projects/website/" "/media/daniel/7613-4175/UnityFPSCourse/" "~/Desktop/Projects/third-party/auto-backup-linux/" "~/Desktop/Projects/javawm/" "~/Desktop/Projects/java-tictactoe/")
+("~/.dotfiles/" "~/.config/opencode/" "~/Desktop/Projects/misc-school-stuff/" "~/Desktop/Projects/website/" "/media/daniel/7613-4175/UnityFPSCourse/" "~/Desktop/Projects/third-party/auto-backup-linux/" "~/Desktop/Projects/javawm/" "~/Desktop/Projects/java-tictactoe/")
