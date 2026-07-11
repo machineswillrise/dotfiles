@@ -20,17 +20,14 @@ end
 # Path
 # ----
 # JBang
-export PATH="$PATH:~/.jbang/bin"
+export PATH="$HOME/.jbang/bin:$PATH"
 
 # Raku
-export PATH="$PATH:/usr/share/perl6/site/bin"
-export PATH="$PATH:~/.raku/bin:$PATH"
+export PATH="/usr/share/perl6/site/bin:$PATH"
+export PATH="$HOME/.raku/bin:$PATH"
 
 # OpenCode
-export PATH="$PATH:~/.opencode/bin/opencode"
-
-# Grok
-export PATH="$PATH:~/.grok/bin/grok"
+export PATH="$HOME/.opencode/bin/opencode:$PATH"
 # ----
 
 # SDKs
