@@ -1,3 +1,15 @@
 {
-  "$schema": "https://opencode.ai/config.json"
+	"$schema": "https://opencode.ai/config.json",
+	"agent": {
+		"logging-expert": {
+			"mode": "subagent",
+			"model": "big-pickle",
+			"description": "Expert in logging best practices and implementation",
+			"prompt": "{file:./prompts/logging-expert.md}",
+			"permission": {
+				"edit": "allow",
+				"bash": "deny"
+			}
+		}
+	}
 }
