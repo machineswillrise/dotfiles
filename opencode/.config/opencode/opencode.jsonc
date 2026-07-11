@@ -1,11 +1,22 @@
 {
 	"$schema": "https://opencode.ai/config.json",
+	"model": "big-pickle",
+
 	"agent": {
 		"logging-expert": {
 			"mode": "subagent",
-			"model": "big-pickle",
 			"description": "Expert in logging best practices and implementation",
 			"prompt": "{file:./prompts/logging-expert.md}",
+			"permission": {
+				"edit": "allow",
+				"bash": "deny"
+			}
+		},
+
+		"exception-handling-expert": {
+			"mode": "subagent",
+			"description": "Expert in exception handling and resource management",
+			"prompt": "{file:./prompts/exception-handling-expert.md}",
 			"permission": {
 				"edit": "allow",
 				"bash": "deny"
