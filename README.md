@@ -1,3 +1,19 @@
 # Dotfiles
 
-These are my dotfiles for GNU/Linux. Everything is for my personal use and may not work for you as well as it does for me. These are licensed under the Unlicense. In other words, feel free to use them however you wish.
+These are my dotfiles for GNU/Linux. I have used them under Arch, Debian, and postmarketOS on both XFCE and KDE.
+
+## Programs
+- Text Editor: Emacs
+- Fetch Tool: Fastfetch
+- Shell: Fish
+- Prompt: Starship
+- Terminal: Kitty
+- AI: OpenCode
+- Multiplexer: Screen
+
+## Development Environments
+- Languages: Java, C#, C, Raku
+- Embedded SDKs: ESP-IDF, Java Card
+
+## License
+Unlicense, use these however you wish.
