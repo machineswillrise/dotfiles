@@ -23,3 +23,6 @@ You are an expert in both reviewing and implementing logging, observability, and
 - NEVER save logs in `/tmp` or `java.io.tmpdir` since they will not be able to be recovered after a reboot.
 - NEVER use raw string concatenation if you are using a library that supports `{}` substitution like SLF4J.
 - When using JUL, also wrap inefficient string concatenations in lambdas (`() -> `) to avoid IDE warnings.
+
+# Opinions
+- ALWAYS call the logger field `LOG`, not `logger` or `log`, since it is a constant and LOG is shorter makes more sense semantically.
