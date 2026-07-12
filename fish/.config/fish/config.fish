@@ -42,6 +42,7 @@ export JAVA_HOME="$HOME/.sdkman/candidates/java/21-tem"
 export ANT_HOME="$HOME/.sdkman/candidates/ant/current"
 export JC_TOOLS_HOME="$HOME/javacard/sdk"
 
+# ESP-IDF
 alias get_idf=". $HOME/esp/esp-idf/export.fish"
 # ----
 
@@ -79,9 +80,6 @@ function gacp
 	gac
 	git push origin HEAD
 end
-
-# Load ESP-IDF SDK
-alias get_idf=". $HOME/esp/esp-idf/export.fish"
 
 # Bypass hotspot throttling
 function bypass_hotspot
