@@ -11,6 +11,15 @@ These are my dotfiles for GNU/Linux. I have used them under Arch, Debian, and po
 - AI: OpenCode
 - Multiplexer: Screen
 
+## Custom Utilities
+- JAgent: Custom AI Agent
+- MusicManager: Android Music Manager
+
+## Useful Aliases
+- `bypass_hotspot`: Avoid throttling by Verizon when using the Wi-Fi hotspot without paying
+- `gacp`: Commit and push changes in one command
+- `j!`: Run JBang scripts
+
 ## Development Environments
 - Languages: Java, C#, C, Raku
 - Embedded SDKs: ESP-IDF, Java Card
