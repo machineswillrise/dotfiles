@@ -70,14 +70,14 @@ alias jagent="j! ~/Desktop/Projects/jagent/JAgent.java"
 alias kscreen="pkill screen"
 
 # Commit changes
-function gac
+function gac -a commit_msg
 	git add .
-	git commit -m "$argv"
+	git commit -m $commit_msg
 end
 
 # Push changes in one command
 function gacp
-	gac
+	gac $argv
 	git push origin HEAD
 end
 
