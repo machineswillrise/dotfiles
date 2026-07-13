@@ -94,6 +94,10 @@ function bypass_hotspot
 	sudo ip6tables -t mangle -A PREROUTING ! -p icmpv6 -i wlan0 -j HL --hl-inc 1
 	sudo ip6tables -t mangle -I POSTROUTING ! -p icmpv6 -o wlan0 -j HL --hl-inc 1
 end
+
+# MultiHop VPN in non-fourteen eyes countries
+alias unglow="ivpn connect -exit_svr cz1.wg.ivpn.net bg1.wg.ivpn.net"
+alias glow="ivpn disconnect"
 # ----------------
 
 function fish_greeting
