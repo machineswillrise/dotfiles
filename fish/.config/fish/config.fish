@@ -20,7 +20,7 @@ end
 # Personal scripts
 # ----------------
 # Custom AI Agent
-alias jagent="j! ~/.config/scripts/JAgent.java"
+alias jagent="jbang ~/.config/scripts/JAgent.java"
 
 # Android Music Manager
 alias music_manager="java ~/.config/scripts/MusicManager.java"
