@@ -17,6 +17,15 @@ if status is-interactive
 	end
 end
 
+# Personal scripts
+# ----------------
+# Custom AI Agent
+alias jagent="j! ~/.config/scripts/JAgent.java"
+
+# Android Music Manager
+alias music_manager="java ~/.config/scripts/MusicManager.java"
+# -----------------
+
 # Path
 # ----
 # JBang
@@ -62,9 +71,6 @@ alias j!="jbang"
 
 # Use All GCC warnings
 alias gcc="gcc -Wall -Wextra -Wpedantic -Werror"
-
-# Custom AI Agent
-alias jagent="j! ~/Desktop/Projects/jagent/JAgent.java"
 
 # Kill GNU screen
 alias kscreen="pkill screen"
