@@ -93,8 +93,30 @@ function bypass_hotspot
 end
 
 # MultiHop VPN in non-fourteen eyes countries
-alias unglow="ivpn connect -exit_svr cz1.wg.ivpn.net bg1.wg.ivpn.net"
-alias glow="ivpn disconnect"
+function unglow
+	ivpn firewall -on
+	set -l safe_exit_servers \
+		"cz1.wg.ivpn.net"  \
+		"bg1.wg.ivpn.net"  \
+		"gr1.wg.ivpn.net"  \
+		"rs1.wg.ivpn.net"  \
+		"ro1.wg.ivpn.net"  \
+
+	set -l count (count $safe_exit_servers)
+	while true
+		set -l ex1 (random 1 $count)
+		set -l ex2 (random 1 (math $count - 1))
+		if test $ex2 != $ex1
+			ivpn connect -exit_svr $safe_exit_servers[$ex1] $safe_exit_servers[$ex2]
+			break
+		end
+	end
+end
+
+function glow
+	ivpn firewall -off
+	ivpn disconnect
+end
 # ----------------
 
 function fish_greeting
