@@ -20,7 +20,7 @@ These are my dotfiles for GNU/Linux. I have used them under Arch, Debian, and po
 - `gacp`: Commit and push changes in one command
 - `j!`: Run JBang scripts
 
-# Privacy Features
+## Privacy Features
 - `unglow`: Establish MultiHop IVPN between two random non-identical non-fourteen-eyes countries and enable firewall
 - `glow`: Disconnect from IVPN and disable firewall
 
