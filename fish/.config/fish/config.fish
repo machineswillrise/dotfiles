@@ -37,9 +37,6 @@ export PATH="$PATH:~/.raku/bin:$PATH"
 
 # OpenCode
 export PATH="$PATH:~/.opencode/bin/opencode"
-
-# Grok
-export PATH="$PATH:~/.grok/bin/grok"
 # ----
 
 # SDKs
