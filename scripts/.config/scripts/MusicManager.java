@@ -101,7 +101,7 @@ public class MusicManager {
 			Path targetParent = targetPath.getParent();
 
 			if (targetParent != null) {
-				executeShellCommand("adb", "shell", "mkdir", "-p", targetParent.toString());
+				executeShellCommand("adb", "shell", "mkdir", "-p", "'" + targetParent.toString() + "'");
 			}
 			executeShellCommand("adb", "push", song.toString(), targetPath.toString());
 		}
