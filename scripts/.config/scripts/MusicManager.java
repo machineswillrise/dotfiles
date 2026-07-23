@@ -78,8 +78,10 @@ public class MusicManager {
 		List<Path> songsNotCopied = new ArrayList<>();
 		for (Path song : downloadedSongs) {
 			boolean found = false;
+			Path relativePath = musicDirectory.relativize(song);
 			for (Path phoneSong : songsOnPhone) {
-				if (song.getFileName().equals(phoneSong.getFileName())) {
+				Path phoneRelativePath = androidMusicDirectory.relativize(phoneSong);
+				if (relativePath.equals(phoneRelativePath)) {
 					found = true;
 					break;
 				}
@@ -94,13 +96,27 @@ public class MusicManager {
 
 	public void push(List<Path> songs) throws IOException {
 		for (Path song : songs) {
-			executeShellCommand("adb", "push", song.toString(), androidMusicDirectory.toString());
+			Path relativePath = musicDirectory.relativize(song);
+			Path targetPath = androidMusicDirectory.resolve(relativePath);
+			Path targetParent = targetPath.getParent();
+
+			if (targetParent != null) {
+				executeShellCommand("adb", "shell", "mkdir", "-p", targetParent.toString());
+			}
+			executeShellCommand("adb", "push", song.toString(), targetPath.toString());
 		}
 	}
 
 	public void pull(List<Path> songs) throws IOException {
 		for (Path song : songs) {
-			executeShellCommand("adb", "pull", song.toString(), musicDirectory.toString());
+			Path relativePath = androidMusicDirectory.relativize(song);
+			Path targetPath = musicDirectory.resolve(relativePath);
+			Path targetParent = targetPath.getParent();
+			if (targetParent != null && !Files.exists(targetParent)) {
+				Files.createDirectories(targetParent);
+			}
+
+			executeShellCommand("adb", "pull", song.toString(), targetPath.toString());
 		}
 	}
 
