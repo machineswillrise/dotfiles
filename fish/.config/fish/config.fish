@@ -35,7 +35,7 @@ export PATH="$PATH:~/.jbang/bin"
 
 # Raku
 export PATH="$PATH:/usr/share/perl6/site/bin"
-export PATH="$PATH:~/.raku/bin:$PATH"
+export PATH="$PATH:~/.raku/bin"
 
 # OpenCode
 export PATH="$PATH:~/.opencode/bin/opencode"
