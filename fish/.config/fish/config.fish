@@ -15,6 +15,8 @@ if status is-interactive
 	if not set -q STY
 		exec screen -RR
 	end
+
+	starship init fish | source
 end
 
 # Personal scripts
@@ -122,6 +124,3 @@ end
 function fish_greeting
 	# Do nothing
 end
-
-# Shell prompt
-starship init fish | source
