@@ -49,6 +49,7 @@ export JAVA_HOME="$HOME/.sdkman/candidates/java/21-tem"
 # Java Card
 export ANT_HOME="$HOME/.sdkman/candidates/ant/current"
 export JC_TOOLS_HOME="$HOME/javacard/sdk"
+alias gp="java -jar $HOME/javacard/gp.jar"
 
 # ESP-IDF
 alias get_idf=". $HOME/esp/esp-idf/export.fish"
@@ -62,9 +63,6 @@ export SSL_CERT_DIR="$HOME/.aspnet/dev-certs/trust:/usr/lib/ssl/certs"
 
 # Personal aliases
 # ----------------
-# Java
-alias java="java --enable-preview --source 21"
-
 # JBang
 alias j!="jbang"
 
