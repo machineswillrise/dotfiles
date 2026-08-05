@@ -50,6 +50,7 @@ export JAVA_HOME="$HOME/.sdkman/candidates/java/21-tem"
 export ANT_HOME="$HOME/.sdkman/candidates/ant/current"
 export JC_TOOLS_HOME="$HOME/javacard/sdk"
 alias gp="java -jar $HOME/javacard/gp.jar"
+alias ant-javacard="java -jar $HOME/javacard/ant-javacard.jar"
 
 # ESP-IDF
 alias get_idf=". $HOME/esp/esp-idf/export.fish"
