@@ -2,7 +2,7 @@
 
 ## General Rules
 - NEVER use spaces for indentation, always use tabs
-- ALWAYS put braces on the same line
+- ALWAYS put braces on the next line (Allman style) unless you are working on a project that uses other brace styles
 - ALWAYS use braces even for single-line if statements, never skip them except for switch statements
 - ALWAYS Sort imports into three sections:
 	- Standard Library

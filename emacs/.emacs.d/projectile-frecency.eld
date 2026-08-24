@@ -1,1 +1,1 @@
-(("/home/daniel/.dotfiles/" ("emacs/.emacs.d/.cache/treemacs-persist" 5 1787548869)))
+(("/home/daniel/.dotfiles/" (".git/COMMIT_EDITMSG" 1 1787550872) ("emacs/.emacs.d/.cache/treemacs-persist" 6 1787550885)))
