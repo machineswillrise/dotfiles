@@ -10,15 +10,6 @@ alias ls="eza"
 # Commands I frequently type wrong
 alias sdkman="sdk"
 
-# Start screen
-if status is-interactive
-	if not set -q STY
-		exec screen -RR
-	end
-
-	starship init fish | source
-end
-
 # Personal scripts
 # ----------------
 # Custom AI Agent
@@ -119,6 +110,35 @@ function glow
 	ivpn disconnect
 end
 # ----------------
+
+# Start screen
+if status is-interactive
+	if not set -q STY
+		set -l use_screen
+		while true
+			read -l -P "Start screen (y/N): " input
+			set -l input (string lower "$input")
+
+			if test "$input" = "y"
+				set use_screen "true"
+				break
+			else if test "$input" = "n"
+				set use_screen "false"
+				break
+			else
+				echo "Please enter Yes (y) or No (n)."
+			end
+		end
+
+		if test "$use_screen" = "true"
+			exec screen -RR
+		else
+			echo "Starting without screen."
+		end
+	end
+
+	starship init fish | source
+end
 
 function fish_greeting
 	# Do nothing

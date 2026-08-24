@@ -1,0 +1,1 @@
+(("/home/daniel/.dotfiles/" ("emacs/.emacs.d/.cache/treemacs-persist" 5 1787548869)))
