@@ -7,14 +7,11 @@ export PAGER=most
 alias grep="rg"
 alias ls="eza"
 
-# Commands I frequently type wrong
+# I type this wrong all the time
 alias sdkman="sdk"
 
 # Personal scripts
 # ----------------
-# Custom AI Agent
-alias jagent="jbang ~/.config/scripts/JAgent.java"
-
 # Android Music Manager
 alias music_manager="java ~/.config/scripts/MusicManager.java"
 # -----------------
