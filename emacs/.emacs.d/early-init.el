@@ -1,3 +1,5 @@
+;;; -*- lexical-binding: t -*-
+
 ;; Always start Emacs maximized
 (push '(fullscreen . maximized) default-frame-alist)
 
