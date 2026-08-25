@@ -55,9 +55,6 @@ export SSL_CERT_DIR="$HOME/.aspnet/dev-certs/trust:/usr/lib/ssl/certs"
 # JBang
 alias j!="jbang"
 
-# Use All GCC warnings
-alias gcc="gcc -Wall -Wextra -Wpedantic -Werror"
-
 # Kill GNU screen
 alias kscreen="pkill screen"
 
