@@ -25,6 +25,9 @@ export PATH="$PATH:~/.jbang/bin"
 export PATH="$PATH:/usr/share/perl6/site/bin"
 export PATH="$PATH:~/.raku/bin"
 
+# Deno
+export PATH="$PATH:~/.deno/bin/deno"
+
 # OpenCode
 export PATH="$PATH:~/.opencode/bin/opencode"
 # ----
@@ -32,7 +35,7 @@ export PATH="$PATH:~/.opencode/bin/opencode"
 # SDKs
 # ----
 # Java
-export JAVA_HOME="$HOME/.sdkman/candidates/java/21-tem"
+export JAVA_HOME="$HOME/.sdkman/candidates/java/25-tem"
 
 # Java Card
 export ANT_HOME="$HOME/.sdkman/candidates/ant/current"
